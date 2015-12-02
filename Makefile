@@ -1,7 +1,11 @@
 FILE=unittest-travis
 
-edit : $(FILE).md
-	pandoc -t beamer -s $(FILE).md -o $(FILE).pdf
+all: unittest-travis.pdf
 
-beamer : $(FILE).md
-	pandoc -t beamer -s $(FILE).md -o $(FILE).pdf
+clean:
+	rm unittest-travis.pdf
+
+.PHONY: all clean
+
+%.pdf: %.md
+	pandoc -t beamer -s $< -o $@
