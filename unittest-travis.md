@@ -57,7 +57,12 @@ Source: https://docs.python.org/2/library/unittest.html
 
 ## Other Automators
 
-NA
+[GitLab CI](https://about.gitlab.com/gitlab-ci/)
+
+[Jenkins](http://jenkins-ci.org/)
+
+More: [Comparison of continuous integration
+software](https://en.wikipedia.org/wiki/Comparison_of_continuous_integration_software)
 
 ## Resources
 
